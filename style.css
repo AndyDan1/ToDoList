@@ -1,0 +1,63 @@
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 100%;
+   background: gold;
+}
+.line {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 40px;
+   width: 500px;
+   padding: 0rem 2rem 0rem 2rem;
+
+   background: brown;
+}
+li {
+   list-style: none;
+   background: green;
+   height: 50px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 2rem;
+   margin-bottom: 20px;
+}
+span{
+   color:white;
+   font-size: 25px;
+}
+li.checked{
+   background: rgb(0, 0, 0,0.7);
+}
+ul{
+   padding: 0 ;
+}
+h2{
+   text-align: center;
+}
+.list {
+   width: 365px;
+   padding: 0rem 2rem 0rem 2rem;
+}
+
+
+
+/* 3 */
+input{
+   max-width: 120px;
+}
+input.rename{
+   background: green;
+   border: none;
+   color:white;
+}
+input.checked{
+   background: rgb(0, 0, 0,0);
+}
+.rename::placeholder{
+   color:white;
+}
